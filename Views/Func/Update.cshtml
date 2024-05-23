@@ -1,0 +1,19 @@
+﻿@model Funcionario
+
+@{
+    ViewData["Title"] = "Atualizar registro";
+}
+
+<a></a>
+<h2></h2>
+
+<form method="post">
+    @* Nome   *@
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label">Nome</label>
+        <input asp-for="Nome" type="text"
+               class="form-control"
+               id="formGroupExampleInput"
+               placeholder="Digite o Nome">
+    </div>
+</form>
