@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="navegacao bg-white border-bottom box-shadow mb-4">
+
+
+    <ul class="lista-nav">
+        <li>
+            <a class="item" asp-area="" asp-controller="Func" asp-action="Index">
+                <img src="/assets/func-adm.svg" class="navegacao-image" alt="...">
+                Funcionário
+            </a>
+        </li>
+        <li>
+            <a class="item" asp-area="" asp-controller="Departamento" asp-action="Index">
+                <img src="/assets/depart-plus.svg" class="navegacao-image" alt="...">
+                Departamento
+            </a>
+        </li>
+        <li>
+            <a class="item" asp-area="" asp-controller="Home" asp-action="Index">
+                <img src="/assets/dashboard-adm.svg" class="navegacao-image" alt="...">
+                Dashboard
+            </a>
+        </li>
+        <li>
+            <a class="item" asp-area="" asp-controller="Wbs" asp-action="Index">
+                <img src="/assets/wbs-adm.svg" class="navegacao-image" alt="...">
+                WBS
+            </a>
+        </li>
+        <li>
+            <a class="item" asp-area="" asp-controller="Myte" asp-action="Create">
+                <img src="/assets/myte-adm.svg" class="navegacao-image" alt="...">
+                MyTE
+            </a>
+        </li>
+
+    </ul>
+    <div>
+
+    </div>
+
+    @* Pesquisa*@
+    @* <div class="pesquisa-botaoAddFunc">
+        <div class="pesquisar">
+            <input type="text" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
+            <button class="button-pesquisar" type="button" id="">
+                <img src="/css/Assets/icon-pesquisar.svg" class="img-pesquisar" alt="...">
+            </button>
+        </div>
+
+        <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index">
+            <button type="button" class="btn btn-primary icon-add_Func">
+                <img id="home" class="icone-button" src="/css/Assets/icon-add-func.svg" alt="">
+                Criar Registro
+            </button>
+        </a>
+
+
+    </div> *@
+    
+
+
+</div>
+
+
+

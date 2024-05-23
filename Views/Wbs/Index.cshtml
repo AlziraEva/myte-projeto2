@@ -1,0 +1,143 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Wbs>
+
+@{
+    ViewData["Title"] = "WBS cadastradas";
+}
+
+ @* <link rel="stylesheet" href="/css/IndexWbs.css">  *@
+
+ <partial name="_NavBar" model="Model"></partial>
+
+ <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ </head>
+
+<nav class="nav d-flex justify-content-lg-between box-shadow mb-3">
+    <div class="div d-flex d-flex my-auto h-25 ">
+        <input type="search" placeholder="Pesquisar WBS" class=" input_search"/>
+        <button class="botao_search"><img src="~/assets/icon_lupa.svg" /></button>
+    </div>
+
+    <a class="btn btn-primary botao_criar_wbs" asp-action="CreateWbs"> <img src="~/assets/icon_add.svg" class="icone_plus" />Criar WBS</a>
+ </nav>
+ 
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<table class="table tabela_wbs">
+    <thead class="thead_wbs">
+        <tr class="tr_wbs">
+            <th>Nome</th>
+            <th>Codigo</th>
+            <th>Descrição</th>
+            <th>Tipo</th>
+            <th>Data de criação</th>
+            <th>Atualizar</th>
+            <th>Excluir</th>
+        </tr>
+    </thead>
+
+    <tbody class="tbody_wbs">
+        @foreach(Wbs cadastro in Model)
+        {
+            <tr class="linha_tabela">
+                <form method="post" id="form_update">
+                <td> @cadastro.Nome </td>
+                <td>  @cadastro.Codigo</td>
+                <td> @cadastro.Descricao </td>
+                <td> @cadastro.Tipo </td>
+                <td>@cadastro.DataCriacao </td>
+                    <td>
+                    <a type="button" class="btn btn-primary botao_edit_wbs edit-button" asp-action="Update">
+                        <img src="~/assets/icon_edit.svg" class="icon_edit">
+                    
+                        Editar
+                       
+                    </a>
+                    </td>
+                    <td>
+                    <a class="btn btn-danger botao_excluir_wbs">
+                        <img src="~/assets/icon_delete.svg" class="icon_delete">
+
+                        Excluir
+
+                    </a>
+                    </td>
+                </form>
+                
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateModalLabel">Atualizar Cadastro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" partial="">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@* <style>
+    #modal {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+        opacity: 0;
+        background-color: rgb(0,0,0,0.2);
+        backdrop-filter: blur(2px)
+    }
+
+        #modal.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+</style>
+<button class="b-modal">abrir</button>
+<div id="modal">
+    <div>
+        ola
+        <button class="b-modal">fechar</button>
+    </div>
+</div> *@
+
+
+<script>
+
+    // $(document).ready(function () {
+    //     // Quando o botão é clicado, mostra o modal
+    //     $("#editar").click(function () {
+    //         $("#updateModal").modal('show');
+    //     });
+    // });
+
+    // $(document).ready(function () {
+    //     // Quando o botão é clicado, mostra o modal
+    //     $(".close").click(function () {
+    //         $("#updateModal").modal('hide');
+    //     });
+    // });
+  
+
+</script>
+

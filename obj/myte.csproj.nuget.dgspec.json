@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eva.cavalcanti.alves\\Documents\\Treinamento Impacta\\Projetos\\MyTe02\\myte\\myte.csproj": {}
+    "C:\\Users\\j.bezerra.de.assis\\Desktop\\backup\\myte-projeto2_backup230524\\myte.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eva.cavalcanti.alves\\Documents\\Treinamento Impacta\\Projetos\\MyTe02\\myte\\myte.csproj": {
+    "C:\\Users\\j.bezerra.de.assis\\Desktop\\backup\\myte-projeto2_backup230524\\myte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eva.cavalcanti.alves\\Documents\\Treinamento Impacta\\Projetos\\MyTe02\\myte\\myte.csproj",
+        "projectUniqueName": "C:\\Users\\j.bezerra.de.assis\\Desktop\\backup\\myte-projeto2_backup230524\\myte.csproj",
         "projectName": "myte",
-        "projectPath": "C:\\Users\\eva.cavalcanti.alves\\Documents\\Treinamento Impacta\\Projetos\\MyTe02\\myte\\myte.csproj",
-        "packagesPath": "C:\\Users\\eva.cavalcanti.alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eva.cavalcanti.alves\\Documents\\Treinamento Impacta\\Projetos\\MyTe02\\myte\\obj\\",
+        "projectPath": "C:\\Users\\j.bezerra.de.assis\\Desktop\\backup\\myte-projeto2_backup230524\\myte.csproj",
+        "packagesPath": "C:\\Users\\j.bezerra.de.assis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j.bezerra.de.assis\\Desktop\\backup\\myte-projeto2_backup230524\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eva.cavalcanti.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\j.bezerra.de.assis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
