@@ -3,7 +3,7 @@
 }
 
 
-
+@*
 @{
 	// Obtém a data atual ou a data passada por parâmetro
 	DateTime currentDate = DateTime.Now;
@@ -27,22 +27,34 @@
 		<button id="nextMonth" data-date="@nextMonth.ToString("yyyy-MM-dd")">Próximo</button>
 
 </div>
-<hr />
+<hr />*@
 
-<div class="d-flex justify-content-between m-3" >
-	<button type="button" class="btn btn-light">Ver todas WBS</button>
-	<button type="button" class="btn btn-primary">Primary</button>
+<div class="d-flex justify-content-between bg-white shadow-sm">
+	<button type="button" class="btn botao-lista-wbs">Ver lista de código WBS</button>
+	<button type="button" class="btn btn-primary botao-criar-myte">Salvar</button>
 </div>
 
-<div class="table-responsive">
+<div class="table-responsive ">
 
-	<table class="table-sm table-bordered table-striped text-center">
+	<table class="table-sm table-bordered table-striped text-center table-hover">
 		<thead>
 			<tr class="align-middle">
-				<th scope="col">Codigo WBS</th>
+				<th scope="col" class="celula-destaque">Codigo WBS</th>
 				<th scope="col"><p class="m-0">Seg</p>01</th>
 				<th scope="col">Ter<br />02</th>
 				<th scope="col">Qua<br />03</th>
+				<th scope="col">Qui<br />04</th>
+				<th scope="col">Sex<br />05</th>
+				<th scope="col">Sab<br />06</th>
+				<th scope="col">Dom<br />07</th>
+				<th scope="col">Seg<br />08</th>
+				<th scope="col">Ter<br />09</th>
+				<th scope="col">Qua<br />10</th>
+				<th scope="col">Qui<br />11</th>
+				<th scope="col">Sex<br />12</th>
+				<th scope="col">Sab<br />13</th>
+				<th scope="col">Dom<br />14</th>
+				<th scope="col">Seg<br />15</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -51,7 +63,7 @@
 				<tr>
 					<th>
 						<div>
-							<button class="btn btn-outline-secondary dropdown-toggle" type="button"
+							<button class="btn btn-outline-secondary dropdown-toggle bg-white" type="button"
 									data-bs-togle="dropdown" aria-expanded="false">
 								ESCOLHER WBS
 							</button>
@@ -62,7 +74,7 @@
 							</ul>
 						</div>
 					</th>
-					@for (int c = 0; c < 16; c++)
+					@for (int c = 0; c < 15; c++)
 					{
 						<th>
 
