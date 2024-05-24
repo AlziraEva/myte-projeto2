@@ -14,9 +14,11 @@
 
 @* Titulo  *@
 
+<div class="col d-flex justify-content-center ">
 
-<main class="containerMain">
-    <div>
+
+<main class=" containerMain">
+    <div class="container_form_createFunc">
         <h2 class="title">
             Criar Registro
         </h2>
@@ -26,12 +28,12 @@
                 @* Imagem
                 Tenho que adicionar uma funçao upload da imagem
                 *@
-                <div class="col">
+                @* <div class="col">
                     <label asp-for="Foto">
                         <img id="preview" src="/css/Assets/funcImagem.jpeg" class="img-thumbnail" alt="...">
                     </label>
-                    @*  <input type="file" id="imageUpload" asp-for="Foto" onchange="loadFile(event)" /> *@
-                </div>
+                    @*  <input type="file" id="imageUpload" asp-for="Foto" onchange="loadFile(event)" /> 
+                </div> *@
                 @* Data de Contratação
                 **** Com o Atributo <<< asp-for >>> estamos RELACIONANDO os dois pedaços label e input
                 com a propriedade estipulada em Model Funcionário ***
@@ -163,7 +165,7 @@
 
             @*  Botões  *@
             <div class="mb-3 botoesForm">
-                <a class="btn btn-outline-secondary form-button_cancelar  " href="#" role="button">Cancelar</a>
+                <a class="btn btn-outline-secondary form-button_cancelar  " asp-controller="Func" asp-action="Index" role="button">Cancelar</a>
                 <button asp-action="Index" type="submit" class="btn btn-primary ">Salvar e Gerar Primeiro Acesso</button>
                 
             </div>
@@ -172,4 +174,5 @@
 
     </div>
 </main>
+</div>
 

@@ -5,13 +5,15 @@ body {
 
 
 .containerMain {
-    margin-left: 10rem;
-    margin-top: 2rem;
-    height: 100vh;
-    max-width: 920px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:2em;
+    height:100%;
     background-color: #FFFF;
     box-shadow: 2px 0px 60px 2px rgb(53, 43, 81, 0.10);
-    padding: 2rem;
+    padding: 2em;
+    border-radius:10px;
 }
 
 .form-button_container {
@@ -33,11 +35,11 @@ body {
 
 /*Título*/
 .title {
-    padding-bottom: 1rem;
+    
 }
 
 .container_foto-data {
-    padding-bottom: 1rem;
+    
 }
 
 .botoesForm {
