@@ -90,3 +90,4 @@ C:\Users\j.bezerra.de.assis\Desktop\backup\myte-projeto2_backup230524\obj\Debug\
 C:\Users\j.bezerra.de.assis\Desktop\backup\myte-projeto2_backup230524\obj\Debug\net8.0\myte.pdb
 C:\Users\j.bezerra.de.assis\Desktop\backup\myte-projeto2_backup230524\obj\Debug\net8.0\myte.genruntimeconfig.cache
 C:\Users\j.bezerra.de.assis\Desktop\backup\myte-projeto2_backup230524\obj\Debug\net8.0\ref\myte.dll
+C:\Users\eva.cavalcanti.alves\Documents\Treinamento Impacta\Projetos\MyTe02\myte\obj\Debug\net8.0\myte.sourcelink.json

@@ -6,7 +6,7 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
 {
     public class FuncController : Controller
     {
-        public IActionResult Index()
+        public IActionResult ListaFuncionarios()
         {
             return View(RepositoryFunc.TodosOsFuncionarios);
         }
@@ -15,59 +15,50 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public IActionResult Create(Funcionario registroFunc, IFormFile foto)
-        {
-            if(ModelState.IsValid)
-            {
-                if(foto != null) // Foto funcionário
-                {
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        foto.CopyTo(memoryStream);
-                        registroFunc.Foto = memoryStream.ToArray();
-                    }
-                }
 
+        [HttpPost]
+        public IActionResult Create(Funcionario registroFunc)
+        {
+           
 
                 RepositoryFunc.Inserir(registroFunc); //ação de inserção de dados na lista
                 
-                return Redirect("Index"); // view message
-            }
-            else
-            {
-                // Caso, algum problema ocorro a view de inserção permanecerá ativa e carregada no browser
-                return View();
-
-            }
+                return Redirect("ListaFuncionarios"); // view message
+     
+          
             
         }
         //Atualizar (Update)       
-        public IActionResult Update(String Identificador) // Primeiro método
+        public IActionResult Update(string Identificador) // Primeiro método
         {           
             Funcionario consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome == Identificador ).First();
             return View(consulta);
         }
+
         //Sobrecarga do Update
         [HttpPost]
-        public ActionResult Update(string Identificador, Funcionario registroAlterado, IFormFile foto)
+        public IActionResult Update(string Identificador, Funcionario registroAlterado)
         {
-            if (ModelState.IsValid)
-            {
-                //Alteração da prop Sobrenome
-                var consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome ==
-                Identificador).First();
+            /*  if (ModelState.IsValid)
+              {
+                  //Alteração da prop Sobrenome
+                  var consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome ==
+                  Identificador).First();
 
-                if (foto != null)
-                {
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        foto.CopyTo(memoryStream);
-                        registroAlterado.Foto = memoryStream.ToArray();
-                    }
-                }
-
-                consulta.Sobrenome = registroAlterado.Sobrenome;
+                  if (foto != null)
+                  {
+                      using (var memoryStream = new MemoryStream())
+                      {
+                          foto.CopyTo(memoryStream);
+                          registroAlterado.Foto = memoryStream.ToArray();
+                      }
+                  }
+            */
+                    
+                  var consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome ==
+                  Identificador).First();
+            consulta.Nome = registroAlterado.Nome;
+            consulta.Sobrenome = registroAlterado.Sobrenome;
                 consulta.DataDeNascimento = registroAlterado.DataDeNascimento;
                 consulta.Email = registroAlterado.Email;
                 consulta.DataDeContratacao = registroAlterado.DataDeContratacao;
@@ -78,12 +69,12 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
                 consulta.Acesso = registroAlterado.Acesso;
                 consulta.Foto = registroAlterado.Foto;
 
-                return RedirectToAction("Index");
+                return Redirect("ListaFuncionarios");
 
-            }
-            return View();            
+            // return View(); 
 
         }
+
         [HttpPost]
         public IActionResult Delete(string Identificador)
         {
@@ -92,7 +83,9 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
             Identificador).First();
             // acessar o método Excluir - partir da classe Repository
             RepositoryFunc.Excluir(consulta);
-            return RedirectToAction("Index");
+            return RedirectToAction("ListaFuncionarios");
+
         }
     }
-}
+ }
+

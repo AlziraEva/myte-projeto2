@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("myte")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73f04c098751e43066daee168a7c7a446769a4f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf2af9ecd99123af73ae6b11d9179b78b73f8ccf")]
 [assembly: System.Reflection.AssemblyProductAttribute("myte")]
 [assembly: System.Reflection.AssemblyTitleAttribute("myte")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
