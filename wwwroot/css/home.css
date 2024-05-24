@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     gap: 1rem;
-    margin-top: 10rem;
+    margin-top: 20rem;
 }
 
 .nav-item {
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 20px;
     gap: .5rem;
     font-size: 1.25rem;
