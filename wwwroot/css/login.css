@@ -1,14 +1,17 @@
-﻿.header-user {
+﻿/*
+    .header-user {
     pointer-events: none; 
     opacity: 0; 
 
 } 
+*/
 
 .container-Login {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items:center;
+    margin: 2rem;
 }
 .container-form-login {
     background: var(--corBanco);

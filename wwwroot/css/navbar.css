@@ -9,15 +9,22 @@
     text-align: center;
     align-items: center;
     background-color: var(--corBanco);
-    padding: 0 1.5rem;
 }
 
 .lista-nav {
     display: flex;
     justify-content: space-around;
     gap: 1rem;
+    
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+.lista-nav li{
+    list-style:none;
+}
 .lista-nav li{
     list-style:none;
 }

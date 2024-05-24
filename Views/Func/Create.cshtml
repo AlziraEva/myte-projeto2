@@ -19,31 +19,24 @@
 
 
     <main class=" containerMain">
-        <div class="container_form_createFunc">
-            <h2 class="title">
-                Criar Registro
-            </h2>
+        
             <form method="post">
-
-                <div class="row container_foto-data">
-                    @* Imagem
-                    Tenho que adicionar uma funçao upload da imagem
-                    *@
-                    @* <div class="col">
-                    <label asp-for="Foto">
-                    <img id="preview" src="/css/Assets/funcImagem.jpeg" class="img-thumbnail" alt="...">
-                    </label>
-                    @*  <input type="file" id="imageUpload" asp-for="Foto" onchange="loadFile(event)" />
-                    </div> *@
-                    @* Data de Contratação
-                    **** Com o Atributo <<< asp-for >>> estamos RELACIONANDO os dois pedaços label e input
-                    com a propriedade estipulada em Model Funcionário ***
-                    *@
-                    <div class="form-group col">
+                 <h1 class="title_Form-Registro">
+                    Criar Registro
+                 </h1>
+                 <div class="row container_foto-data">                       
+                     <div class="col">
+                        <label asp-for="Foto">
+                        <img id="preview" src="/assets/icon_user.svg" class="img-thumbnail" alt="...">
+                        </label>
+                        @*<input type="file" id="imageUpload" asp-for="Foto" onchange="loadFile(event)" /> *@
+                     </div>
+                      @* Data de Contratação*@
+                     <div class="form-group col">
                         <label asp-for="DataDeContratacao">Data de Contratação:</label>
                         <input asp-for="DataDeContratacao" type="date" class="form-control" id="contratacao">
-                    </div>
-                </div>
+                     </div>
+                 </div>
                 @* **************************  *@
                 <div class="row">
                     @* Nome   *@

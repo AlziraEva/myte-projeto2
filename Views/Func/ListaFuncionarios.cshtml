@@ -7,45 +7,66 @@
 
 <partial name="_NavBar" model="Model"></partial>
 
-<nav class="nav d-flex justify-content-end box-shadow mb-3">
+
+
+<nav class="nav d-flex justify-content-end ">
     <div class="div d-flex d-flex my-auto h-25 ">
-        <input type="search" placeholder="Pesquisar funcionario" class=" input_search" />
+        <input type="search" placeholder="Funcionário" class=" input_search" />
         <button class="botao_search"><img src="~/assets/icon_lupa.svg" /></button>
     </div>
 
-    <a class="btn btn-primary botao_criar_wbs" asp-action="Create"> <img src="/assets/icone-admissao-admin.svg" class="icone_plus" />Admissão</a>
+    <a class="btn btn-primary botao_criar_wbs" asp-action="Create"> 
+        <img src="/assets/icone-admissao-admin.svg" class="icone_plus" />
+        Admissão</a>
 </nav>
 
-@* listagem dos departamentos*@
-<div class="container mt-3 custom-container">
-    <div class="row row-cols-md-4">
+@* listagem dos Funcionários*@
+
+<div class="container_TodosFunc">
         @foreach (Funcionario registro in Model)
         {
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <div class="card-body d-flex flex-column align-items-center">
-                        <div class="position-relative img-card mb-3">
-                            <img src="/assets/func-adm.svg" class="card-img-top img-fluid imagem-card" alt="...">
-                        </div>
-                        <div class="nome-departamento text-center mb-3">
-                            <p class="text-dark fs-5 fw-semibold font-family-Roboto m-0 input-card">@registro.Nome</p>
-                            <p class="m-0 p-func-depart">@registro.Departamento</p>
-                        </div>
-                        <div class="d-flex justify-content-center gap-2">
-                            <div class="mb-2 mr-2">
+            <div class=" container_CardFuncionario">
+                <article class=" card_Func">
 
-                                <a class="btn btn-outline-light botao-atualizar botao-atualizar-excluir" asp-action="Update" asp-route-identificador="@registro.Nome">Atualizar</a>
-
-                            </div>
-                            <div class="mb-2">
-                                <form asp-action="Delete" asp-route-identificador="@registro.Nome" method="post">
-                                    <button class="btn btn-outline-danger botao-atualizar-excluir" data-id="@registro.Nome">Excluir</button>
-                                </form>
-                            </div>
-                        </div>
+                    @* Imagem Funcionário*@
+                    <div class="container_img-card">
+                        <img src="/assets/func-adm.svg" class="imagem-card" alt="...">
                     </div>
-                </div>
+                    @* Inserir os Dados no Card *@
+                    <div class="container_listaDados">
+                        <span class="item_text-nome">
+                            @registro.Nome 
+                        </span>
+                        <span class="item_text-cargo">
+                            @registro.Cargo
+                        </span>
+                         <span class="item_text-depart">
+                             @registro.Departamento
+                        </span>
+                    </div>
+                      
+
+                    @* Botão Atualizar *@
+                    <div class="d-flex justify-content-center container_button-funcCard">
+                        <div class="">
+                            <a class="btn btn-light botao-atualizar"
+                               asp-action="Update"
+                               asp-route-identificador="@registro.Nome">
+                                Atualizar
+                            </a>
+
+                        </div>
+                        @* Botão Excluir *@
+                        <div class="">
+                            <form asp-action="Delete"
+                                  asp-route-identificador="@registro.Nome" method="post">
+                                <button class="btn btn-outline-danger botao-atualizar-excluir" data-id="@registro.Nome">
+                                    Excluir
+                                </button>
+                            </form>
+                        </div>
+                    </div> @* Fecha a div dos botões*@
+                </article>
             </div>
         }
     </div>
-</div>

@@ -16,10 +16,15 @@ body {
     border-radius: 10px;
 }
 
+.title_Form-Registro {
+    padding: 0 0 3rem 0;
+}
+
 .form-button_container {
     padding: 3rem 0;
     float: right;
 }
+
 
 
 .img-thumbnail {
@@ -34,10 +39,11 @@ body {
 }
 
 /*Título*/
-.title {
-}
+
 
 .container_foto-data {
+    align-items: center;
+    padding: 0 0 2rem 0;
 }
 
 .botoesForm {
@@ -55,3 +61,5 @@ body {
     color: var(--corBanco);
     border: var(--bs-primary);
 }
+
+
