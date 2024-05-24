@@ -21,7 +21,7 @@ namespace myte.Controllers
             if (ModelState.IsValid)
             {
                 Repository.Inserir(registroWbs);
-                return View("ConfirmacaoWbs", registroWbs);
+                return RedirectToAction("Index");
             }
             else
             {
@@ -48,9 +48,9 @@ namespace myte.Controllers
                 consulta.Tipo = wbsAlterada.Tipo;
                 consulta.Codigo = wbsAlterada.Codigo;
 
-                return View("Index");
+                return Redirect("Index");
             }
-            return View("Update", wbsAlterada);
+            return View();
 
         }
 

@@ -54,24 +54,26 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
                       }
                   }
             */
-                    
-                  var consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome ==
-                  Identificador).First();
-            consulta.Nome = registroAlterado.Nome;
-            consulta.Sobrenome = registroAlterado.Sobrenome;
+            if (ModelState.IsValid)
+            {
+                var consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome == Identificador).First();
+                consulta.Nome = registroAlterado.Nome;
+                consulta.Sobrenome = registroAlterado.Sobrenome;
                 consulta.DataDeNascimento = registroAlterado.DataDeNascimento;
                 consulta.Email = registroAlterado.Email;
                 consulta.DataDeContratacao = registroAlterado.DataDeContratacao;
                 consulta.Genero = registroAlterado.Genero;
                 consulta.Senioridade = registroAlterado.Senioridade;
                 consulta.Cargo = registroAlterado.Cargo;
-                consulta.Departamento = registroAlterado.Departamento;                
+                consulta.Departamento = registroAlterado.Departamento;
                 consulta.Acesso = registroAlterado.Acesso;
                 consulta.Foto = registroAlterado.Foto;
 
                 return Redirect("ListaFuncionarios");
+            }
+                
 
-            // return View(); 
+             return View(); 
 
         }
 

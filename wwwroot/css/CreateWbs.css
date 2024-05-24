@@ -9,15 +9,14 @@
     justify-content: space-around;
 }
 */
+.div_all_createWbs{
+    padding:2em;
+}
 
-
-model {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid none;
+.card_criar_wbs {
     width: 50%;
-    height: 50%;
+    border-radius: 10px;
+    padding:0.8em;
 }
 
 .titulo_criar_wbs {
@@ -65,6 +64,9 @@ model {
     border-radius: 10px;
     background: none;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

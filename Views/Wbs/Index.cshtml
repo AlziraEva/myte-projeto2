@@ -16,7 +16,7 @@
  </head>
 
 <nav class="nav d-flex justify-content-lg-between box-shadow mb-3">
-    <div class="div d-flex d-flex my-auto h-25 ">
+    <div class="div d-flex d-flex my-auto h-25 p-3">
         <input type="search" placeholder="Pesquisar WBS" class=" input_search"/>
         <button class="botao_search"><img src="~/assets/icon_lupa.svg" /></button>
     </div>
@@ -51,7 +51,7 @@
                 <td> @cadastro.Tipo </td>
                 <td>@cadastro.DataCriacao </td>
                     <td>
-                    <a type="button" class="btn btn-primary botao_edit_wbs edit-button" asp-action="Update">
+                    <a type="button" class="btn btn-primary botao_edit_wbs edit-button" asp-action="UpdateWbs" asp-controller="Wbs" asp-route-id="@cadastro.Codigo">
                         <img src="~/assets/icon_edit.svg" class="icon_edit">
                     
                         Editar
@@ -59,12 +59,15 @@
                     </a>
                     </td>
                     <td>
-                    <a class="btn btn-danger botao_excluir_wbs">
-                        <img src="~/assets/icon_delete.svg" class="icon_delete">
+                    <form asp-action="Delete" asp-route-id="@cadastro.Codigo" method="post">
+                        <button type="submit" class="btn btn-danger botao_excluir_wbs" >
+                            <img src="~/assets/icon_delete.svg" class="icon_delete">
 
-                        Excluir
+                            Excluir
 
-                    </a>
+                        </button>
+                    </form>
+                    
                     </td>
                 </form>
                 

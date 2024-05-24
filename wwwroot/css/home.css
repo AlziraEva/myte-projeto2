@@ -1,12 +1,19 @@
 ﻿body {
+    
+}
 
+.nav_principal_home{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:9em 1em;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-    margin-top: 20rem;
+    align-items:center;
+    justify-content:center;
+    gap: 1rem; 
 }
 
 .nav-item {
@@ -26,7 +33,6 @@
     transition: all 1s ease;
     box-shadow: 2px 0px 10px 5px rgb(53, 43, 81, 0.05);
     background-color: var(--corBanco);
-
     width:210px;
 }
 

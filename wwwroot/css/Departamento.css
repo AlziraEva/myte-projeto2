@@ -139,6 +139,7 @@ a {
 .botao-atualizar-excluir {
     font-size: 0.8rem; /* Tamanho da fonte 80% menor */
     padding: 0.25rem 0.5rem; /* Padding menor */
+    transition:0.2s;
 }
 
 .input-card {
@@ -245,6 +246,8 @@ a {
     text-align: left;
     font-size: var(--font-size-xl);
     font-family: var(--font-roboto);
+    transition:0.2s;
+    border:none;
 }
 
 .botao-salvar-depart {
