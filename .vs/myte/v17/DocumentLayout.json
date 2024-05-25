@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\",
   "Documents": [
     {
@@ -29,6 +30,101 @@
     {
       "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\telamyte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\telamyte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\myte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\myte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\myte\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\myte\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\departamento.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\departamento.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\departamento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\departamento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\func\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\func\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\funcionario.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\funcionario.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\func\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\func\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\func\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\func\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\controllers\\funccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:controllers\\funccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\wbs\\createwbs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\wbs\\createwbs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\wbs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\wbs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\controllers\\wbscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:controllers\\wbscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\wbs\\updatewbs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\wbs\\updatewbs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\views\\departamento\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\departamento\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\createwbs.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\createwbs.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\s.flores.quispe\\desktop\\impacta\\aspnet\\myte\\myte-agorava\\wwwroot\\css\\form_view_create.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\form_view_create.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+>>>>>>> 4d4622ede91101dbc06bc2e745447ac54ac3ed2a
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +134,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "CreateWbs.css",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\css\\CreateWbs.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\CreateWbs.css",
@@ -51,10 +152,73 @@
               "ViewState": "AQIAAEgAAAAAAAAAAADwv2wAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-25T05:58:24.235Z",
+=======
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T16:54:10.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Myte\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Myte\\Create.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Myte\\Create.cshtml",
+              "RelativeToolTip": "Views\\Myte\\Create.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAGEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T16:53:00.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Myte\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Myte\\Index.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Myte\\Index.cshtml",
+              "RelativeToolTip": "Views\\Myte\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T16:52:27.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TelaMyte.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\TelaMyte.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\TelaMyte.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\TelaMyte.css",
+              "RelativeToolTip": "wwwroot\\css\\TelaMyte.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T16:51:27.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "wwwroot\\css\\home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T05:19:37.909Z",
+>>>>>>> 4d4622ede91101dbc06bc2e745447ac54ac3ed2a
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Funcionario.css",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\css\\Funcionario.css",
@@ -112,10 +276,34 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-25T05:35:24.778Z"
+=======
+              "DocumentIndex": 5,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "Views\\Home\\Home.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:18:09.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Departamento\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departamento\\Create.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Departamento\\Create.cshtml",
+              "RelativeToolTip": "Views\\Departamento\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:15:57.668Z"
+>>>>>>> 4d4622ede91101dbc06bc2e745447ac54ac3ed2a
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
               "Title": "global.css",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\css\\global.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\global.css",
@@ -124,6 +312,196 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-25T04:48:55.919Z"
+=======
+              "Title": "Departamento.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\Departamento.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Departamento.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\Departamento.css",
+              "RelativeToolTip": "wwwroot\\css\\Departamento.css",
+              "ViewState": "AQIAAOkAAAAAAAAAAAAAAPkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T05:13:07.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Funcionario.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\Funcionario.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Funcionario.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\Funcionario.css",
+              "RelativeToolTip": "wwwroot\\css\\Funcionario.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T05:13:03.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListaFuncionarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Func\\ListaFuncionarios.cshtml",
+              "RelativeDocumentMoniker": "Views\\Func\\ListaFuncionarios.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Func\\ListaFuncionarios.cshtml",
+              "RelativeToolTip": "Views\\Func\\ListaFuncionarios.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:12:27.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Func\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Func\\Update.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Func\\Update.cshtml",
+              "RelativeToolTip": "Views\\Func\\Update.cshtml",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAAAKcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:11:27.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Func\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Func\\Create.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Func\\Create.cshtml",
+              "RelativeToolTip": "Views\\Func\\Create.cshtml",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAKkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:08:30.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FuncController.cs",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Controllers\\FuncController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncController.cs",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Controllers\\FuncController.cs",
+              "RelativeToolTip": "Controllers\\FuncController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T05:08:02.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WbsController.cs",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Controllers\\WbsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WbsController.cs",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Controllers\\WbsController.cs",
+              "RelativeToolTip": "Controllers\\WbsController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA7wBcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:41:16.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Departamento\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departamento\\Update.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Departamento\\Update.cshtml",
+              "RelativeToolTip": "Views\\Departamento\\Update.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T04:40:39.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateWbs.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Wbs\\UpdateWbs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wbs\\UpdateWbs.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Wbs\\UpdateWbs.cshtml",
+              "RelativeToolTip": "Views\\Wbs\\UpdateWbs.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwC4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T04:24:37.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateWbs.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Wbs\\CreateWbs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wbs\\CreateWbs.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Wbs\\CreateWbs.cshtml",
+              "RelativeToolTip": "Views\\Wbs\\CreateWbs.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T04:25:44.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Departamento\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departamento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Departamento\\Index.cshtml",
+              "RelativeToolTip": "Views\\Departamento\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T04:45:06.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Wbs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wbs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Views\\Wbs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Wbs\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T04:24:50.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "Controllers\\DepartamentoController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:40:57.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateWbs.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\CreateWbs.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\CreateWbs.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\CreateWbs.css",
+              "RelativeToolTip": "wwwroot\\css\\CreateWbs.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T04:28:56.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAgwMMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T04:29:09.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Form_View_Create.css",
+              "DocumentMoniker": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\Form_View_Create.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Form_View_Create.css",
+              "ToolTip": "C:\\Users\\s.flores.quispe\\Desktop\\Impacta\\ASPNET\\MyTe\\myte-agorava\\wwwroot\\css\\Form_View_Create.css",
+              "RelativeToolTip": "wwwroot\\css\\Form_View_Create.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T04:28:43.564Z"
+>>>>>>> 4d4622ede91101dbc06bc2e745447ac54ac3ed2a
             }
           ]
         }
