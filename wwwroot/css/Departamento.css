@@ -16,7 +16,9 @@
     padding: 5px; /* Ou qualquer outro valor desejado */
 }
 
-
+.imagem-card {
+    filter: hue-rotate(260deg);
+}
 
 .component-43 {
     width: 100%;
@@ -253,7 +255,7 @@ a {
 .botao-salvar-depart {
     position: relative;
     border-radius: 10px;
-    background-color: #a155b9;
+    background-color: #A155B9;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -293,7 +295,7 @@ a {
 }
 
 .botao-salvar-depart:hover {
-    background-color: #fff;
+    background-color: #4a185926;
     color: #a155b9;
 }
 

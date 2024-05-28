@@ -17,13 +17,21 @@
     </div>
 </nav> *@ 
 
+
 <div class="col d-flex justify-content-center div_all_createWbs">
+    
     
 
 <div class="card shadow bg-white rounded card_criar_wbs ">
     <h1 class="titulo_criar_wbs">@ViewData["Title"]</h1>
 
-    @* <model > *@
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+            </div>
+        }
         <form method="post" class="form_criar_wbs">
             <div class="div_inputs">
                 <label asp-for="Nome"></label>
@@ -64,7 +72,7 @@
                 
             
         </form>
-    @* </model> *@
+    
 </div>
 
 </div>

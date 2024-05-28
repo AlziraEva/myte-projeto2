@@ -8,6 +8,7 @@ namespace myte.Controllers
         public IActionResult Index()
         {
             return View(Repository.TodasAsWbs);
+            
         }
 
         public IActionResult CreateWbs()
@@ -21,10 +22,14 @@ namespace myte.Controllers
             if (ModelState.IsValid)
             {
                 Repository.Inserir(registroWbs);
+                
+
+                TempData["SuccessMessage"] = "Wbs cadastrada com sucesso!";
                 return RedirectToAction("Index");
             }
             else
             {
+                TempData["ErrorMessage"] = "Não é possivel prosseguir com a ação";
                 return View();
             }
         }
@@ -39,6 +44,7 @@ namespace myte.Controllers
         [HttpPost]
         public IActionResult Update(string id, Wbs wbsAlterada)
         {
+            
             if (ModelState.IsValid)
             {
                 var consulta = Repository.TodasAsWbs.Where((r) => r.Codigo == id).First();
@@ -57,9 +63,19 @@ namespace myte.Controllers
         [HttpPost]
         public IActionResult Delete(string id)
         {
-            Wbs consulta = Repository.TodasAsWbs.Where((r) => r.Codigo == id).First();
-            Repository.Excluir(consulta);
-            return RedirectToAction("Index");
+            
+            try
+            {
+                Wbs consulta = Repository.TodasAsWbs.Where((r) => r.Codigo == id).First();
+                Repository.Excluir(consulta);
+                TempData["SuccessMessageDelete"] = "exclusao realizada com sucesso!";
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                TempData["ErrorMessageDelete"] = "Não é possivel prosseguir com a ação";
+                return Redirect("Index");
+            }
         }
     }
 }
