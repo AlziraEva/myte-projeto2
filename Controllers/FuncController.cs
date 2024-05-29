@@ -19,14 +19,23 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
         [HttpPost]
         public IActionResult Create(Funcionario registroFunc)
         {
-           
 
+            if (ModelState.IsValid)
+            {
                 RepositoryFunc.Inserir(registroFunc); //ação de inserção de dados na lista
+
+                TempData["SuccessMessage"] = "Cadastro realizado com sucesso!";
                 
                 return Redirect("ListaFuncionarios"); // view message
-     
-          
-            
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Não é possivel prosseguir com a ação";
+                return View();
+            }
+
+
+
         }
         //Atualizar (Update)       
         public IActionResult Update(string Identificador) // Primeiro método
@@ -67,7 +76,7 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
                 consulta.Cargo = registroAlterado.Cargo;
                 consulta.Departamento = registroAlterado.Departamento;
                 consulta.Acesso = registroAlterado.Acesso;
-                consulta.Foto = registroAlterado.Foto;
+                //consulta.Foto = registroAlterado.Foto;
 
                 return Redirect("ListaFuncionarios");
             }
@@ -81,11 +90,20 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
         public IActionResult Delete(string Identificador)
         {
             //Definir a consulta exclusão
-            Funcionario consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome ==
-            Identificador).First();
-            // acessar o método Excluir - partir da classe Repository
-            RepositoryFunc.Excluir(consulta);
-            return RedirectToAction("ListaFuncionarios");
+            try
+            {
+                Funcionario consulta = RepositoryFunc.TodosOsFuncionarios.Where((r) => r.Nome ==
+                Identificador).First();
+                // acessar o método Excluir - partir da classe Repository
+                RepositoryFunc.Excluir(consulta);
+                TempData["SuccessMessage"] = "exclusao realizada com sucesso!";
+                return RedirectToAction("ListaFuncionarios");
+            }
+            catch
+            {
+                TempData["ErrorMessage"] = "Não é possivel prosseguir com a ação";
+                return Redirect("Index");
+            }
 
         }
     }

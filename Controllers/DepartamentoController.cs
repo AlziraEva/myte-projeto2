@@ -23,11 +23,14 @@ namespace myte.Controllers
             if (ModelState.IsValid)
             {
                 Repositorio.Inserir(registroDepartamento);
-               return Redirect("Index");
+                TempData["SuccessMessage"] = "Departamento cadastrado com sucesso!";
+                return Redirect("Index");
             }
             else
             {
+                TempData["ErrorMessage"] = "Não é possivel prosseguir com a ação";
                 return View();
+                
             }
         }
 
@@ -58,11 +61,20 @@ namespace myte.Controllers
         [HttpPost]
         public IActionResult Delete(string Identificador)
         {
-            Departamento Consulta = Repositorio.TodosOsDepartamentos.Where((r) => r.Nome == Identificador).First();
+            try
+            {
+                Departamento Consulta = Repositorio.TodosOsDepartamentos.Where((r) => r.Nome == Identificador).First();
 
-            Repositorio.Excluir(Consulta);
-
-            return RedirectToAction("Index");
+                Repositorio.Excluir(Consulta);
+                TempData["SuccessMessage"] = "exclusao realizada com sucesso!";
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                TempData["ErrorMessage"] = "Não é possivel prosseguir com a ação";
+                return Redirect("Index");
+            }
+            
 
         }
 

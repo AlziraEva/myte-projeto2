@@ -5,6 +5,25 @@
 }
 
 <partial name="_NavBar" model="Model"></partial>
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        @* <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button> *@
+    </div>
+}
+
+@if (TempData["SuccessMessageDelete"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessageDelete"]
+        @* <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button> *@
+    </div>
+}
 
 @* Botão criar departamento e pesquisar *@
 <nav class="nav d-flex justify-content-end box-shadow mb-3">
@@ -31,7 +50,7 @@
                         <div class="nome-departamento text-center mb-3">
                             <p class="text-dark fs-5 fw-semibold font-family-Roboto m-0 input-card">@registro.Nome</p>
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center gap-2">
                             <div class="mb-2 mr-2">
 
                                 <a class="btn btn-outline-light botao-atualizar botao-atualizar-excluir"  asp-action="Update" asp-route-identificador="@registro.Nome">Atualizar</a>
