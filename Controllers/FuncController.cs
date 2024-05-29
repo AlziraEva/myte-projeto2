@@ -26,7 +26,7 @@ namespace Projeto.ASPNET.MVC.CRUD_MyTE.Controllers
 
                 TempData["SuccessMessage"] = "Cadastro realizado com sucesso!";
                 
-                return Redirect("ListaFuncionarios"); // view message
+                return Redirect("/User/Create"); // view message
             }
             else
             {

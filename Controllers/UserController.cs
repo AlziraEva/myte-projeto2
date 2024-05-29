@@ -13,6 +13,10 @@ namespace myte.Controllers
         //1° Passo: Elemento lógico referencial (private) | para manipular os dados da db
         //O UserManager<> oferece esse recurso.
 
-        private UserManager<AppUser> _userManager;
+        public IActionResult Create()
+        {
+            return View();
+        }
+    
     }
 }
