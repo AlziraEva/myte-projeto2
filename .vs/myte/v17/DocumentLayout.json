@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\form_view_create.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\wwwroot\\css\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\wwwroot\\css\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:wwwroot\\css\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T20:09:17.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "user.js",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\js\\user.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\user.js",
               "ToolTip": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\js\\user.js",
               "RelativeToolTip": "wwwroot\\js\\user.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-05-29T19:26:40.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form_View_Create.css",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\css\\Form_View_Create.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Form_View_Create.css",
@@ -56,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Create.cshtml",
-              "ToolTip": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\User\\Create.cshtml*",
-              "RelativeToolTip": "Views\\User\\Create.cshtml*",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAAaAAAA",
+              "ToolTip": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Views\\User\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-29T16:48:15.929Z",
               "EditorCaption": ""
@@ -90,7 +107,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "User.css",
               "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\wwwroot\\css\\User.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\User.css",
