@@ -1,94 +1,29 @@
 ﻿
 
-/* ESTILO CREATE Departamento - Barra superior de navegação e pesquisa*/
+/* Tarcila Alterações */
 
+/* Container principal*/
+.container_body-departamento { 
 
-.custom-container {
-    margin-right: auto; /* Define a margem direita como automática para centralizar o container */
-    margin-left: auto; /* Define a margem esquerda como automática para centralizar o container */
-    max-width: 90%; /* Define a largura máxima do container */
-}
-
-.nome-departamento {
-    max-width: 100%;
-    overflow-wrap: break-word;
-    width: 200px; /* Ou qualquer outro valor desejado */
-    padding: 5px; /* Ou qualquer outro valor desejado */
-}
-
-.imagem-card {
-    filter: hue-rotate(260deg);
-}
-
-.component-43 {
-    width: 100%;
-    position: relative;
-    border-radius: 10px;
-    background-color: #e8def8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-3xs) var(--padding-3xs) 5px;
-    box-sizing: border-box;
-    text-align: left;
-    font-size: 10px;
-    color: #414141;
-    font-family: var(--font-roboto);
-}
-
-
-.component-44 {
-    position: relative;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 50px rgba(103, 80, 164, 0.2);
     border-radius: 10px;
-    background-color: #e8def8;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: var(--padding-3xs) var(--padding-3xs) 5px;
     box-sizing: border-box;
+    background-color: #FFFF;
+    padding: 3%;
     text-align: left;
-    font-size: 10px;
-    font-family: var(--font-roboto);
 }
 
-
-.component-42 {
-    width: 100%;
-    position: relative;
-    border-radius: 10px;
-    background-color: #e8def8;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: var(--padding-3xs) var(--padding-3xs) 5px;
-    box-sizing: border-box;
-    text-align: left;
-    font-size: 10px;
-    color: #414141;
-    font-family: var(--font-roboto);
+.label-titulo{
+    padding:2rem;
 }
-
-.component-41 {
-    width: 100%;
-    position: relative;
-    border-radius: 10px;
-    background-color: #e8def8;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: var(--padding-3xs) var(--padding-3xs) 5px;
-    box-sizing: border-box;
-    text-align: left;
-    font-size: 10px;
-    color: #414141;
-    font-family: var(--font-roboto);
-}
-
 
 /* Botão de criar departamento*/
 .botao-criar {
@@ -141,7 +76,7 @@ a {
 .botao-atualizar-excluir {
     font-size: 0.8rem; /* Tamanho da fonte 80% menor */
     padding: 0.25rem 0.5rem; /* Padding menor */
-    transition:0.2s;
+    transition: 0.2s;
 }
 
 .input-card {
@@ -175,31 +110,13 @@ a {
     font-family: var(--font-roboto);
 }
 
-.centro {
-    display: flex;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 4px 50px rgba(103, 80, 164, 0.2);
-    border-radius: 10px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    background-color: #FFFF;
-    padding: 3%;
-    text-align: left;
-}
+
 
 .label-titulo {
     width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 42px;
@@ -248,8 +165,8 @@ a {
     text-align: left;
     font-size: var(--font-size-xl);
     font-family: var(--font-roboto);
-    transition:0.2s;
-    border:none;
+    transition: 0.2s;
+    border: none;
 }
 
 .botao-salvar-depart {

@@ -81,7 +81,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .5rem 3rem;
-    align-content: centar;
+    align-content: center;
     /* align-self: center; */
     align-items: center;
     height: 76px;
@@ -170,27 +170,7 @@ button.accept-policy {
 }
 */
 
-.navbar {
-    list-style:none;
-    
-}
 
-.navbar-nav {
-    justify-content: space-between;
-}
-
-.nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5em;
-}
-
-.nav-item a {
-    font-size: 20px;
-    font-weight: bold;
- 
-}
 
 /*ESTILO ADMIN*/
 .botao-navegacao{

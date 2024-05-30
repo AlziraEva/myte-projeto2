@@ -11,10 +11,10 @@
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    margin: 2rem;
+    margin: 9%;
 }
 .container-form-login {
-    background: var(--corBanco);
+    background: var(--corBranco);
     display: flex;
     flex-direction: row;
     width: 50vw;
@@ -33,10 +33,12 @@
     display: flex;
     justify-content: flex-end; /* Alinha o botão à direita */
     margin: 2rem 0 1rem 0; 
+    
 }
 .button-Entrar {
     padding: .5rem 3rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: var(--corBranco);
 }
 
 .container-login-apresentacao {
