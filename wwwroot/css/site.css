@@ -170,6 +170,21 @@ button.accept-policy {
 }
 */
 
+/* Remover o contorno de todos os campos de entrada*/
+input:focus {
+    outline: none;
+}
+input{
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}
+
 
 
 /*ESTILO ADMIN*/
