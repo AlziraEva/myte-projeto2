@@ -54,7 +54,7 @@
 
 .btn-primary {
     background-color: var(--bs-primary);
-    color: var(--corBanco);
+    color: #ffff;
     border: var(--bs-primary);
 }
 

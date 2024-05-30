@@ -24,26 +24,29 @@
                  <h1 class="title_Form-Registro">
                     Criar Registro
                  </h1>
-            @if (!ViewData.ModelState.IsValid)
-            {
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
-                    @* <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button> *@
-                </div>
-            }
+            
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        @Html.ValidationSummary(false, "", new { @class = "text-danger" })                    
+                    </div>
+                }
+              
                  <div class="row container_foto-data">                       
                      <div class="col">
-                         <label @* asp-for="Foto" *@>
+                         <label>
                         <img id="preview" src="/assets/icon_user.svg" class="img-thumbnail" alt="...">
                         </label> 
-                        @*<input type="file" id="imageUpload" asp-for="Foto" onchange="loadFile(event)" /> *@
+                        
                      </div>
                       @* Data de Contratação*@
                      <div class="form-group col">
                         <label asp-for="DataDeContratacao">Data de Contratação:</label>
-                        <input asp-for="DataDeContratacao" type="date" class="form-control" id="contratacao">
+                        <input asp-for="DataDeContratacao" 
+                            type="date" 
+                            class="form-control @(ViewData.ModelState["DataDeContacacao"]?.Errors.Count > 0 ? "is-invalid" : "")" 
+                            id="contratacao">
+                            <span asp-validation-for="Nome" class="text-danger"></span>
                      </div>
                  </div>
                 @* **************************  *@
@@ -52,25 +55,28 @@
                     <div class="mb-3">
                         <label asp-for="Nome" class="form-label">Nome</label>
                         <input asp-for="Nome" type="text"
-                               class="form-control"
-                               id="formGroupExampleInput"
-                               placeholder="Digite o Nome">
+                           class="form-control @(ViewData.ModelState["Nome"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                           id="nome"
+                           placeholder="Digite o Nome">
+                        <span asp-validation-for="Nome" class="text-danger"></span>
                     </div>
                     @* Sobrenome   *@
                     <div class="mb-3">
                         <label asp-for="Sobrenome" class="form-label">Sobrenome</label>
                         <input asp-for="Sobrenome" type="text"
-                               class="form-control"
-                               id="formGroupExampleInput"
-                               placeholder="Digite o Sobrenome">
+                           class="form-control @(ViewData.ModelState["Sobrenome"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                           id="sobrenome"
+                           placeholder="Digite o Sobrenome">
+                        <span asp-validation-for="Sobrenome" class="text-danger"></span>
                     </div>
                     @* email  *@
                     <div class="mb-3">
                         <label asp-for="Email" class="form-label">E-mail</label>
                         <input asp-for="Email" type="text"
-                               class="form-control"
-                               id="formGroupExampleInput"
-                               placeholder="Digite o e-mail">
+                           class="form-control @(ViewData.ModelState["Email"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                           id="email"
+                           placeholder="Digite o e-mail">
+                        <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                 </div>
                 @* **************************  *@
@@ -78,12 +84,20 @@
                     @* Data de Nascimento  *@
                     <div class="form-group col">
                         <label asp-for="DataDeNascimento">Data de Nascimento</label>
-                        <input asp-for="DataDeNascimento" type="date" class="form-control" id="nascimento">
+                        <input asp-for="DataDeNascimento" 
+                               type="date" 
+                               class="form-control @(ViewData.ModelState["DataDeNascimento"]?.Errors.Count > 0 ? "is-invalid" : "")" 
+                               id="nascimento"
+                               placeholder="Digite a data de nascimento ">
+                        <span asp-validation-for="DataDeNascimento" class="text-danger"></span>
+
                     </div>
                     @* Gênero  *@
                     <div class="col mb-3">
                         <label asp-for="Genero"> Gênero </label>
-                        <select asp-for="Genero" class="form-select" aria-label="Gênero">
+                        <select asp-for="Genero"
+                            class="form-select @(ViewData.ModelState["Genero"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                            aria-label="Gênero">
                             <option selected>Selecione</option>
                             <option value="MC">Mulher cisgênero</option>
                             <option value="MT">Mulher transgênero</option>
@@ -94,6 +108,7 @@
                             <option value="GF">Gênero-fluido</option>
                             <option value="Bg">Bigênero</option>
                         </select>
+                        <span asp-validation-for="Genero" class="text-danger"></span>
                     </div>
                 </div>
                 @* **************************  *@
@@ -101,7 +116,9 @@
                     @* Senioridade *@
                     <div class="col">
                         <label asp-for="Senioridade"> Senioridade </label>
-                        <select asp-for="Senioridade" class="form-select" aria-label="Senioridade">
+                        <select asp-for="Senioridade" 
+                            class="form-select @(ViewData.ModelState["Senioridade"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                            aria-label="Senioridade">
                             <option selected>Selecione</option>
                             <option value="Estagiario">Estagiário</option>
                             <option value="Junior">Junior</option>
@@ -111,13 +128,16 @@
                             <option value="Gerente">Gerente</option>
                             <option value="Getor">Gestor</option>
                         </select>
+                        <span asp-validation-for="Senioridade" class="text-danger"></span>
                     </div>
 
 
                     @* Cargo  *@
                     <div class="col mb-3">
                         <label asp-for="Cargo"> Cargo </label>
-                        <select asp-for="Cargo" class="form-select" aria-label="Cargo">
+                        <select asp-for="Cargo" 
+                            class="form-select @(ViewData.ModelState["Cargo"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                            aria-label="Cargo">
                             <option selected>Selecione</option>
                             <option value="DevSoftware">Desenvolvedor</option>
                             <option value="Engenheiro">Engenheiro</option>
@@ -130,6 +150,7 @@
                             <option value="QA">QA</option>
                             <option value="Financeiro">Financeiro</option>
                         </select>
+                        <span asp-validation-for="Cargo" class="text-danger"></span>
                     </div>
 
 
@@ -137,7 +158,9 @@
                     @* Departamento *@
                     <div class="col mb-3">
                         <label asp-for="Departamento"> Departamento </label>
-                        <select asp-for="Departamento" class="form-select" aria-label="Departamento">
+                        <select asp-for="Departamento" 
+                            class="form-select @(ViewData.ModelState["Departamento"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                            aria-label="Departamento">
                             <option selected>Selecione</option>
                             <option value="Suporte">Suporte Técnico</option>
                             <option value="Desenvolvimento">Desenvolvimento</option>
@@ -151,25 +174,37 @@
                             <option value="Infra">Infra Estrutura</option>
                             <option value="RH">Recursos Humanos</option>
                         </select>
+                        <span asp-validation-for="Departamento" class="text-danger"></span>
                     </div>
 
                     @* Acesso *@
                     <div class="col mb-3">
                         <label asp-for="Acesso"> Acesso </label>
-                        <select asp-for="Acesso" class="form-select" aria-label="Acesso">
+                        <select asp-for="Acesso" 
+                            class="form-select @(ViewData.ModelState["Acesso"]?.Errors.Count > 0 ? "is-invalid" : "")"
+                            aria-label="Acesso">
                             <option selected>Selecione</option>
                             <option value="Admin">Admin</option>
                             <option value="Gerente">Gerente</option>
                             <option value="Funcionario">Funcionário Comum</option>
                         </select>
+                        <span asp-validation-for="Acesso" class="text-danger"></span>
                     </div>
 
                 </div>
 
                 @*  Botões  *@
                 <div class="mb-3 botoesForm">
-                    <a class="btn btn-outline-secondary form-button_cancelar  " asp-controller="Func" asp-action="ListaFuncionarios" role="button">Cancelar</a>
-                <button  type="submit" class="btn btn-primary ">Salvar e Gerar Primeiro Acesso</button>
+                    <a class="btn btn-outline-secondary form-button_cancelar  " 
+                        asp-controller="Func" 
+                        asp-action="ListaFuncionarios" 
+                        role="button">
+                        Cancelar
+                    </a>
+                <button  type="submit" 
+                         class="btn btn-primary ">
+                         Salvar e Gerar Primeiro Acesso
+                 </button>
 
                 </div>
 

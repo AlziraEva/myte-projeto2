@@ -225,3 +225,14 @@ textarea:focus {
     margin-top: 2rem; 
 }
 */
+
+
+/*  Ajuste Global de Botões */
+.btn-primary {
+    background-color: #E8DEF8;
+    color: none;
+}
+
+.btn-primary:hover{
+    background-color:#6750A4;
+}
