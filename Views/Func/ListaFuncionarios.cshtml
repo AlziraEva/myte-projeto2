@@ -26,17 +26,20 @@
     </div>
 }
 
-
-<nav class="nav d-flex justify-content-end ">
-    <div class="div d-flex d-flex my-auto h-25 ">
-        <input type="search" placeholder="Funcionário" class=" input_search" />
-        <button class="botao_search"><img src="~/assets/icon_lupa.svg" /></button>
+@* Botão criar WBS e pesquisar - O CSS está no departamente  *@
+<div class="d-flex justify-content-end  mb-3 container-pesquisarEhNewbedepart">
+    <div class="div d-flex d-flex my-auto h-25   container-search">
+        <input type="search" placeholder="Funcionário" class=" input_search-depart" />
+        <button class="botao_search-depart"><img src="~/assets/icon_lupa.svg" /></button>
     </div>
 
-    <a class="btn btn-primary botao_criar_wbs" asp-action="Create"> 
-        <img src="/assets/icone-admissao-admin.svg" class="icone_plus" />
-        Admissão</a>
-</nav>
+    <a class="btn btn-primary botao_criar_departamento"
+       asp-action="CreateWbs">
+        <img src="~/assets/icone-admissao-admin.svg" class="icone_plus" />
+        Admissão
+    </a>
+</div>
+
 
 @* listagem dos Funcionários*@
 
