@@ -4,22 +4,25 @@
 <partial name="_NavBar" model="Model"></partial>
 
     <div class="calendar-container">
+        @* Botão Salvar *@
         <div class="div_botao_salvar">
             <button class="botao_salvar"> Salvar</button>
         </div>
-    
+        @* Calendário Quinzena *@
         <div class="calendar-header">
             <button id="prev">Anterior</button>
             <span id="quinzena-label"></span>
             <button id="next">Próximo</button>
         </div>
+
+        @* Tabela Calendário *@
         <table class="calendar-table">
             <thead>
                 <tr id="header-row">
-                    <th>WBS</th>
+                    <th class="vw-100">WBS</th>
                     @foreach (var day in Model.CalendarDays)
                     {
-                        <th>
+                    <th class="w-25">
                             <div>@day.DayOfWeek</div>
                             <div>@day.Day</div>
                         </th>
@@ -40,8 +43,11 @@
                         </td>
                         @foreach (var day in Model.CalendarDays)
                         {
-                            <td>
-                                <input type="number" class="hours-input"  data-day="@day.Day" data-dayofweek="@day.DayOfWeek" />
+                            <td class="day-cell">
+                                <input type="number"
+                                   class="hours-input"
+                                   data-day="@day.Day" 
+                                        data-dayofweek="@day.DayOfWeek" />
                             </td>
                         }
                     </tr>

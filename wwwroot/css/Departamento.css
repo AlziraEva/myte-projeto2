@@ -39,6 +39,40 @@
         border-color: #8B24AC;
     }
 
+.botao_criar_departamento {
+    display: flex;
+    float: right;
+    background: #A155B9;
+    color: white;
+    border: none;
+    width: fit-content;
+    transition: 0.2s;
+    border-radius: 10px;
+    height: 2.5em;
+    margin: 1em 3rem;
+    font-weight: 600;
+}
+
+.container-pesquisarEhNewbedepart {
+}
+.container-search{
+    background: #fff;
+    border-radius: 2px;
+}
+
+.input_search-depart {
+    border-radius: 8px;
+    width: 40vw;
+    border: 1px solid #979797;
+    padding: .5rem;
+    border:none;
+}
+
+.botao_search-depart{
+    border:none;
+    background: #fff;
+}
+
 
 a {
     text-decoration: none;

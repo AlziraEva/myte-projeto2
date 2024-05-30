@@ -42,39 +42,61 @@
     padding:1em;
 }
 
-#quinzena-label {
+
+    #quinzena-label {
     color: #A155B9;
     font-weight: bold;
     font-size: 18px;
 }
 
+
+
+
 .calendar-table {
     width: 100%;
     border-collapse: collapse;
-    
+    border-color: #fff;
+    background: #E8DEF8;
 }
 
-    .calendar-table thead {
-        background-color: #6750A4;
-        color: white;
-    }
 
-.wbs-select {
-    width: 5em;
+.calendar-table thead {
+    background-color: #A155B9;
+    color: white;    
 }
-
     .calendar-table th, .calendar-table td {
-        border: 1px solid #ccc;
+        border: 1px solid #ffff;
         padding: 10px;
         text-align: center;
     }
 
-.hours-input{
+
+.wbs-select {
+    width: 20rem;
+    background: #E8DEF8;
+    border: none;
+}
+
+
+
+.hours-input {
     width: 90%;
-    border:none;
+    border: none;
+    background: #E8DEF8;
 }
 
 .hours-input:disabled {
-    background-color: #f0f0f0;
+    background-color: #A155B9;
     cursor: not-allowed;
 }
+
+.day-cell input{
+    background-color: #A155B9;
+}
+.weekend {
+    background-color: #A155B9; /* Substitua por sua cor desejada */
+}
+.day .weekend {
+    border: 2px solid #ffff;
+}
+

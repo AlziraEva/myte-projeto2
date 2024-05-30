@@ -28,6 +28,9 @@
                 headerRow.innerHTML = '<th>WBS</th>';
                 data.forEach(day => {
                     const th = document.createElement('th');
+                    if (day.dayOfWeek === 'Sunday' || day.dayOfWeek === 'Saturday') {
+                        th.classList.add('weekend'); // Adicione a classe 'weekend' aos dias de sábado e domingo
+                    }
                     th.innerHTML = `<div>${daysOfWeek[day.dayOfWeek]}</div><div>${day.day}</div>`;
                     headerRow.appendChild(th);
                 });
@@ -60,6 +63,8 @@
 
                                 if (day.dayOfWeek === 'Sunday' || day.dayOfWeek === 'Saturday') {
                                     input.disabled = true;
+                                    // Adicione a classe 'weekend' aos dias de sábado e domingo
+                                    td.classList.add('weekend'); // para a célula do dia                                    
                                 }
 
                                 td.appendChild(input);
