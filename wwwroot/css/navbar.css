@@ -111,3 +111,7 @@ dl, ol, ul {
 .icone-button {
     width: 24px;
 }
+
+.active {
+    background-color: #D69BDF; 
+}
