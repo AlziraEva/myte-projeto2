@@ -73,25 +73,26 @@
                 <td> @cadastro.Descricao </td>
                 <td> @cadastro.Tipo </td>
                 <td>@cadastro.DataCriacao </td>
-                    <td>
-                    <a type="button" 
-                        class="btn  botao_edit_wbs edit-button" 
-                        asp-action="UpdateWbs" 
-                        asp-controller="Wbs" 
-                        asp-route-id="@cadastro.Codigo">
+                <td>
+                    <a class="btn  botao_edit_wbs edit-button"
+                       asp-action="UpdateWbs"
+                       asp-controller="Wbs"
+                       asp-route-codigo="@cadastro.Codigo">
 
-                        <img src="~/assets/icon_edit.svg" 
+                        <img src="~/assets/icon_edit.svg"
                              class="icon_edit">
                     </a>
-                    </td>
-                    <td>
-                    <form asp-action="Delete" asp-route-id="@cadastro.Codigo" method="post">
+                </td>
+                <td>
+                    <form asp-action="DeleteWbs" method="post">
+                        <input type="hidden" value="@cadastro.Codigo" name="codigo" />
                         <button type="submit" class="btn  botao_excluir_wbs confirm-action">
-                            <img src="~/assets/icon_delete.svg" class="icon_delete">
+                            <img src="~/assets/icon_delete.svg" class="icon_delete" />
+
                         </button>
                     </form>
-                    
-                    </td>
+
+                </td>
                 </form>
                 
             </tr>
