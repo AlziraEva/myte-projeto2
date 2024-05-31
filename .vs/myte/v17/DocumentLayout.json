@@ -1,13 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\",
+  "WorkspaceRootPath": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\views\\func\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\services\\registrohorasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:services\\registrohorasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\views\\calendar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\calendar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\models\\calendarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:models\\calendarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\models\\registrohoras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:models\\registrohoras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\views\\func\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\func\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\t.cardoso.alves\\onedrive - avanade\\documents\\projetos\\04 aspnet\\projeto myte\\projetomyte-clone\\vers\u00E3o01-24052024\\views\\func\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|c:\\users\\j.bezerra.de.assis\\downloads\\myte-projeto2\\views\\func\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81898179-F1AD-4199-A583-20EB4D91B211}|myte.csproj|solutionrelative:views\\func\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -18,33 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T20:04:50.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Views\\Calendar\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Calendar\\Index.cshtml",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Views\\Calendar\\Index.cshtml",
+              "RelativeToolTip": "Views\\Calendar\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T20:01:33.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalendarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Models\\CalendarViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CalendarViewModel.cs",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Models\\CalendarViewModel.cs",
+              "RelativeToolTip": "Models\\CalendarViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T20:00:13.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalendarController.cs",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Controllers\\CalendarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CalendarController.cs",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Controllers\\CalendarController.cs",
+              "RelativeToolTip": "Controllers\\CalendarController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T19:58:27.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistroHorasService.cs",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Services\\RegistroHorasService.cs",
+              "RelativeDocumentMoniker": "Services\\RegistroHorasService.cs",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Services\\RegistroHorasService.cs",
+              "RelativeToolTip": "Services\\RegistroHorasService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T19:58:01.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistroHoras.cs",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Models\\RegistroHoras.cs",
+              "RelativeDocumentMoniker": "Models\\RegistroHoras.cs",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Models\\RegistroHoras.cs",
+              "RelativeToolTip": "Models\\RegistroHoras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T19:56:56.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\Func\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Views\\Func\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Func\\Create.cshtml",
-              "ToolTip": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\Func\\Create.cshtml",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Views\\Func\\Create.cshtml",
               "RelativeToolTip": "Views\\Func\\Create.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-31T16:03:38.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ListaFuncionarios.cshtml",
-              "DocumentMoniker": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\Func\\ListaFuncionarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Views\\Func\\ListaFuncionarios.cshtml",
               "RelativeDocumentMoniker": "Views\\Func\\ListaFuncionarios.cshtml",
-              "ToolTip": "C:\\Users\\t.cardoso.alves\\OneDrive - Avanade\\Documents\\projetos\\04 ASPNET\\projeto MyTE\\ProjetoMyte-Clone\\Vers\u00E3o01-24052024\\Views\\Func\\ListaFuncionarios.cshtml",
+              "ToolTip": "C:\\Users\\j.bezerra.de.assis\\Downloads\\myte-projeto2\\Views\\Func\\ListaFuncionarios.cshtml",
               "RelativeToolTip": "Views\\Func\\ListaFuncionarios.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T16:04:05.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T16:04:05.078Z"
             }
           ]
         }

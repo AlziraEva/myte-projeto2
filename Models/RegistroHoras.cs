@@ -2,14 +2,18 @@
 {
 	public class RegistroHoras
 	{
-		public int FuncionarioId { get; set; }
-		public Funcionario Funcionario { get; set; } // Referência ao modelo Funcionario
+        public int Id { get; set; }
 
-		public string CodigoWBS { get; set; }
-		public Wbs WBS { get; set; } // Referência ao modelo WBS
+        public int Horas { get; set; }
+        public DateTime Dia { get; set; }
 
-		public DateTime Data { get; set; }
-		public int HorasTrabalhadas { get; set; }
-	}
+
+        public string? Funcionario_Email { get; set; }
+
+        public Funcionario? Funcionario { get; set; }
+
+
+        public string? WBS_Codigo { get; set; }
+    }
 
 }

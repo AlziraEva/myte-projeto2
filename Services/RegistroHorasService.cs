@@ -40,5 +40,11 @@ namespace myte.Services
 
             return await apiResposta.Content.ReadFromJsonAsync<RegistroHoras>();
         }
+
+        public async Task<List<Wbs>> GetAllWbsAsync()
+        {
+            var apiResposta = await _httpClient.GetFromJsonAsync<List<Wbs>>("/api/Wbs/GetAll");
+            return apiResposta;
+        }
     }
 }

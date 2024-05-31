@@ -3,6 +3,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using myte.Models;
+using myte.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,11 @@ builder.Services.AddIdentity<AppUser, IdentityRole>()
 	.AddDefaultTokenProviders();
 //Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddScoped<WbsService>();
+builder.Services.AddScoped<RegistroHorasService>();
 
 /***** Primeiro bloco unifica os serviços para a aplicação funcionar *****/
 
