@@ -47,7 +47,7 @@ dl, ol, ul {
     list-style:none;
 }
 
-.item {
+.list a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,12 +68,14 @@ dl, ol, ul {
     height: 64px;
 }
 
-    .item:hover {
+    .list a:hover {
         border: 2px solid var(--bs-tertiary);
         transition: all 1s ease;
         box-shadow: 2px 0px 5px 2px rgb(53, 43, 81, 0.10);
         color: var(--bs-tertiary);
     }
+
+    
 
 .pesquisa-botaoAddFunc{
     align-items:center;
@@ -112,6 +114,8 @@ dl, ol, ul {
     width: 24px;
 }
 
-.active {
-    background-color: #D69BDF; 
+.active a{
+    border: 2px solid var(--bs-tertiary);
+
+   
 }

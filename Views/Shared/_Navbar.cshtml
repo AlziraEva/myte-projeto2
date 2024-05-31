@@ -9,11 +9,12 @@
 
 
     <ul class="lista-nav">
-        <li>
-            <a class="item"
+        <li class="list">
+            <a 
                asp-area="" 
                 asp-controller="Func" 
                 asp-action="ListaFuncionarios"
+                data-controller="Func"
             >
                 <img src="/assets/func-adm.svg" 
                     class="navegacao-image" 
@@ -22,11 +23,12 @@
                 Funcionário
             </a>
         </li>
-        <li>
-            <a class="item"
+        <li class="list">
+            <a 
                asp-area="" 
                 asp-controller="Departamento" 
                 asp-action="Index"
+                data-controller="Departamento"
             >
                 <img src="/assets/depart-plus.svg" 
                      class="navegacao-image"
@@ -35,11 +37,12 @@
                 Departamento
             </a>
         </li>
-        <li>
-            <a class="item"
+        <li class="list">
+            <a 
                 asp-area="" 
                 asp-controller="Home" 
                 asp-action="Index"
+                data-controller="Home"
             >
                 <img src="/assets/dashboard-adm.svg" 
                      class="navegacao-image" 
@@ -48,11 +51,12 @@
                 Dashboard
             </a>
         </li>
-        <li>
-            <a class="item"
+        <li class="list">
+            <a 
                asp-area="" 
                 asp-controller="Wbs" 
                 asp-action="Index"
+                data-controller="Wbs"
             >
                 <img src="/assets/wbs-adm.svg" 
                      class="navegacao-image" 
@@ -61,11 +65,13 @@
                 WBS
             </a>
         </li>
-        <li>
-            <a class="item"
+        <li class="list">
+            <a 
                asp-area="" 
                 asp-controller="Calendar" 
-                asp-action="Index">
+                asp-action="Index"
+                data-controller="Calendar"
+            >
                 <img src="/assets/myte-adm.svg" 
                      class="navegacao-image" 
                      alt="..."
